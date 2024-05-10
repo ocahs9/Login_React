@@ -1,0 +1,7 @@
+{ 
+  "extends": ["stylelint-config-recommended", 
+              "stylelint-config-concentric-order"] , 
+  "rules" : {
+  	"color-named": "never" // 색상명을 이름으로 사용할 수 없는 규칙 추가
+	}
+}
